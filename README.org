@@ -1,0 +1,4 @@
+* What's in this repo?
+
+When taking the "6.042j Mathematics for Computer Science" course in MIT OpenCourseware, I thought this was a great opportunity to learn the logic programming paradigm from Proglog and "put into practice" the Curry-Howard correspondence.
+So, here are some of the programs I wrote for learning.
