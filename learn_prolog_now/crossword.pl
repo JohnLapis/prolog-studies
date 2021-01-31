@@ -1,3 +1,27 @@
+/*
+  Grid:
+          V1       V2      V3
+         ┏━━━┓   ┏━━━┓   ┏━━━┓
+         ┃   ┃   ┃   ┃   ┃   ┃
+     ┏━━━┫━━━┣━━━┫━━━┣━━━┫━━━┣━━━┓
+  H1 ┃   ┃   ┃   ┃   ┃   ┃   ┃   ┃
+     ┗━━━┫━━━┣━━━┫━━━┣━━━┫━━━┣━━━┛
+         ┃   ┃   ┃   ┃   ┃   ┃
+     ┏━━━┫━━━┣━━━┫━━━┣━━━┫━━━┣━━━┓
+  H2 ┃   ┃   ┃   ┃   ┃   ┃   ┃   ┃
+     ┗━━━┫━━━┣━━━┫━━━┣━━━┫━━━┣━━━┛
+         ┃   ┃   ┃   ┃   ┃   ┃
+     ┏━━━┫━━━┣━━━┫━━━┣━━━┫━━━┣━━━┓
+  H3 ┃   ┃   ┃   ┃   ┃   ┃   ┃   ┃
+     ┗━━━┫━━━┣━━━┫━━━┣━━━┫━━━┣━━━┛
+         ┃   ┃   ┃   ┃   ┃   ┃
+         ┗━━━┛   ┗━━━┛   ┗━━━┛
+
+  Write a predicate crossword/6 that tells us how to fill in the grid. The
+  first three arguments should be the vertical words from left to right, and
+  the last three arguments the horizontal words from top to bottom.
+*/
+
 word(astante,  a,s,t,a,n,t,e).
 word(astoria,  a,s,t,o,r,i,a).
 word(baratto,  b,a,r,a,t,t,o).
